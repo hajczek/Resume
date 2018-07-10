@@ -12,7 +12,7 @@ const bio = {
         location: 'Warsaw, Poland'
     },
     welcomeMessage: 'Welcome to my Resume :)',
-    skills: [],
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'React', 'Git', 'Grid', 'Photoshop'],
     biopic: '',
     display: function(){
         
