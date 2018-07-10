@@ -52,22 +52,23 @@ const education = {
     ],
     onlineCourses: [
         courseThird = {
-            title: '',
-            school: '',
-            dates: '',
-            url: ''
+            title: 'Front-End Web Developer Nanodegree',
+            school: 'Udacity',
+            dates: '02/2018 - 08/2018',
+            url: 'https://graduation.udacity.com/confirm/AVYLSTTF'
         },
         courseSecond = {
-            title: '',
-            school: '',
-            dates: '',
-            url: ''
+            title: 'Google Developer Challenge Scholarship',
+            school: 'Udacity',
+            dates: '11/2017 - 02/2018',
+            url: 'https://eu.udacity.com/'
         },
         courseFirst = {
-            title: '',
-            school: '',
-            dates: '',
-            url: ''
+            title: 'EITCA Computer Graphics Programme',
+            school: 'EUROPEAN INFORMATION TECHNOLOGIES CERTIFICATION INSTITUTE',
+            dates: '08/2016',
+            url: 'https://www.eitci.org/validate',
+            certificateId: 'EITCA/EG/JQF16004487'
         },
     ],
     display: function(){
