@@ -13,7 +13,7 @@ const bio = {
     },
     welcomeMessage: 'Welcome to my Resume :)',
     skills: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'React', 'Git', 'Grid', 'Photoshop'],
-    biopic: '',
+    biopic: 'images/197x148.gif',
     display: function(){
         
     }    
