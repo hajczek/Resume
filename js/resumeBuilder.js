@@ -9,7 +9,7 @@ const bio = {
         mobile: '605 832 505',
         email: 'i.hajczewska@gmail.com',
         github: 'https://github.com/hajczek',
-        location: 'Warsaw'
+        location: 'Warsaw, Poland'
     },
     welcomeMessage: 'Welcome on my Resume :)',
     skills: [],
