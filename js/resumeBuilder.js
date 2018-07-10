@@ -11,7 +11,7 @@ const bio = {
         github: 'https://github.com/hajczek',
         location: 'Warsaw, Poland'
     },
-    welcomeMessage: 'Welcome on my Resume :)',
+    welcomeMessage: 'Welcome to my Resume :)',
     skills: [],
     biopic: '',
     display: function(){
