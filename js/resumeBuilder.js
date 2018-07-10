@@ -1,5 +1,5 @@
 /*
-This is empty on purpose! Your code to build the resume will go here.
+Object with 'bio' informations
  */
 
 const bio = {
