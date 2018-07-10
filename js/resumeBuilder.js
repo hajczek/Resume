@@ -113,28 +113,25 @@ const work = {
 Object with informations about projects
  */
 
-const work = {
-    jobs: [
-        jobThird = {
-            employer: '',
+const projects = {
+    allProjects: [
+        projectThird = {
             title: '',
-            location: '',
             dates: '',
-            description: ''
+            description: '',
+            images: []
         },
-         jobSecond = {
-            employer: '',
+         projectSecond = {
             title: '',
-            location: '',
             dates: '',
-            description: ''
+            description: '',
+            images: []
         },
-         jobFirst = {
-            employer: '',
+         projectFirst = {
             title: '',
-            location: '',
             dates: '',
-            description: ''
+            description: '',
+            images: []
         }
     ],
     display: function(){
