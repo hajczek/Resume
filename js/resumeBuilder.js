@@ -18,3 +18,59 @@ const bio = {
         
     }    
 }
+
+/*
+Object with education informations
+ */
+
+const education = {
+    schools: [
+        universitySecond = {
+            name: '',
+            location: '',
+            degree: '',
+            majors: [],
+            dates: '',
+            url: ''
+        },
+        universityFirst = {
+            name: '',
+            location: '',
+            degree: '',
+            majors: [],
+            dates: '',
+            url: ''
+        },
+        highSchool= {
+            name: '',
+            location: '',
+            degree: '',
+            majors: [],
+            dates: '',
+            url: ''
+        }
+    ],
+    onlineCourses: [
+        courseThird = {
+            title: '',
+            school: '',
+            dates: '',
+            url: ''
+        },
+        courseSecond = {
+            title: '',
+            school: '',
+            dates: '',
+            url: ''
+        },
+        courseFirst = {
+            title: '',
+            school: '',
+            dates: '',
+            url: ''
+        },
+    ],
+    display: function(){
+        
+    }  
+}
