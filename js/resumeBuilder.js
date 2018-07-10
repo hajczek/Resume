@@ -30,7 +30,7 @@ const education = {
             location: 'Warsaw, Poland',
             degree: 'master',
             majors: [],
-            dates: '',
+            dates: '2000 - 2003',
             url: 'http://en.uw.edu.pl/'
         },
         universityFirst = {
