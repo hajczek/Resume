@@ -83,25 +83,25 @@ Object with informations about works experiences
 const work = {
     jobs: [
         jobThird = {
-            employer: '',
-            title: '',
-            location: '',
-            dates: '',
+            employer: 'self-employed',
+            title: 'Serwis stron',
+            location: 'Milanówek, Poland',
+            dates: '01/2009 - now',
             description: ''
         },
          jobSecond = {
-            employer: '',
-            title: '',
-            location: '',
-            dates: '',
-            description: ''
+            employer: 'nonstop studio',
+            title: 'Younger website designer',
+            location: 'Warsaw, Poland',
+            dates: '11/2007 - 08/2008',
+            description: 'Coding web layouts (HTML, CSS, JS)self-employed'
         },
          jobFirst = {
-            employer: '',
-            title: '',
-            location: '',
-            dates: '',
-            description: ''
+            employer: 'ATCOM SA',
+            title: 'Independent consultant at the Customer Service Office',
+            location: 'Warsaw, Poland',
+            dates: '07/2004 - 05/2007',
+            description: 'Customer service'
         }
     ],
     display: function(){
