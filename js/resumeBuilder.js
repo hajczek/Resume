@@ -29,7 +29,7 @@ const education = {
             name: 'University of Warsaw - Pedagogic faculty',
             location: 'Warsaw, Poland',
             degree: 'master',
-            majors: [],
+            majors: ['Early School Pedagogy'],
             dates: '2000 - 2003',
             url: 'http://en.uw.edu.pl/'
         },
@@ -37,15 +37,15 @@ const education = {
             name: 'University of Warsaw - Pedagogic faculty',
             location: 'Warsaw, Poland',
             degree: 'licentiate',
-            majors: [],
+            majors: ['Early School Pedagogy'],
             dates: '1997 - 2000',
             url: 'http://en.uw.edu.pl/'
         },
         highSchool= {
             name: 'Technikum Terenów Zieleni',
             location: 'Radzymin, Poland',
-            degree: 'technician of green areas',
-            majors: [],
+            degree: 'technician',
+            majors: ['Landscape architecture'],
             dates: '1994 - 1997',
             url: 'http://zstz-radzymin.pl/'
         }
