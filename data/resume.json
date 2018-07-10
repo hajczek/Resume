@@ -1,8 +1,5 @@
-/*
-Object with 'bio' informations
- */
-
-const bio = {
+{
+    "bio": {
         "name": "Iwona Kolanowska",
         "role": "Front-End Web Development",
         "constacts": {
@@ -17,9 +14,9 @@ const bio = {
         "display": function(){
                 console.log()
             }    
-    };
+    },
 
-const education = {
+    "education": {
         "schools": [
             {
                 "name": "University of Warsaw",
@@ -70,9 +67,9 @@ const education = {
         "display": function(){
 
         }  
-    };
+    },
 
-const work = {
+    "work": {
         "jobs": [
             {
                 "employer": "self-employed",
@@ -99,9 +96,9 @@ const work = {
         "display": function(){
 
         }  
-    };
+    },
 
-const projects = {
+    "projects": {
         "projects": [
             {
                 "title": "Portfolio",
@@ -157,6 +154,4 @@ const projects = {
 
         }  
     }
-
-let formattedName = HTMLheaderName.replace("%data%", bio.name);
-$('#main').prepend(formattedName);
+}
