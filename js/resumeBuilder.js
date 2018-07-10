@@ -20,7 +20,7 @@ const bio = {
 }
 
 /*
-Object with education informations
+Object with informations about education
  */
 
 const education = {
@@ -69,6 +69,73 @@ const education = {
             dates: '',
             url: ''
         },
+    ],
+    display: function(){
+        
+    }  
+}
+
+/*
+Object with informations about works experiences
+ */
+
+const work = {
+    jobs: [
+        jobThird = {
+            employer: '',
+            title: '',
+            location: '',
+            dates: '',
+            description: ''
+        },
+         jobSecond = {
+            employer: '',
+            title: '',
+            location: '',
+            dates: '',
+            description: ''
+        },
+         jobFirst = {
+            employer: '',
+            title: '',
+            location: '',
+            dates: '',
+            description: ''
+        }
+    ],
+    display: function(){
+        
+    }  
+}
+
+
+/*
+Object with informations about projects
+ */
+
+const work = {
+    jobs: [
+        jobThird = {
+            employer: '',
+            title: '',
+            location: '',
+            dates: '',
+            description: ''
+        },
+         jobSecond = {
+            employer: '',
+            title: '',
+            location: '',
+            dates: '',
+            description: ''
+        },
+         jobFirst = {
+            employer: '',
+            title: '',
+            location: '',
+            dates: '',
+            description: ''
+        }
     ],
     display: function(){
         
