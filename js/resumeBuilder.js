@@ -26,28 +26,28 @@ Object with informations about education
 const education = {
     schools: [
         universitySecond = {
-            name: '',
-            location: '',
-            degree: '',
+            name: 'University of Warsaw - Pedagogic faculty',
+            location: 'Warsaw, Poland',
+            degree: 'master',
             majors: [],
             dates: '',
-            url: ''
+            url: 'http://en.uw.edu.pl/'
         },
         universityFirst = {
-            name: '',
-            location: '',
-            degree: '',
+            name: 'University of Warsaw - Pedagogic faculty',
+            location: 'Warsaw, Poland',
+            degree: 'licentiate',
             majors: [],
-            dates: '',
-            url: ''
+            dates: '1997 - 2000',
+            url: 'http://en.uw.edu.pl/'
         },
         highSchool= {
-            name: '',
-            location: '',
-            degree: '',
+            name: 'Technikum Terenów Zieleni',
+            location: 'Radzymin, Poland',
+            degree: 'technician of green areas',
             majors: [],
-            dates: '',
-            url: ''
+            dates: '1994 - 1997',
+            url: 'http://zstz-radzymin.pl/'
         }
     ],
     onlineCourses: [
