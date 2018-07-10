@@ -116,22 +116,53 @@ Object with informations about projects
 
 const projects = {
     allProjects: [
+        projectSixth = {
+            title: 'Portfolio',
+            dates: '03/2018',
+            description: 'My portfolio online.',
+            url: 'https://hajczek.github.io/portfolio/',
+            images: []
+        },
+        projectFifth = {
+            title: 'e-Cook-Book',
+            dates: '01/2018 - 02/2018',
+            description: 'I was an originator of this project. This project was made by group of students FEND Scholarship.',
+            url: 'http://e-cookbook.online/',
+            images: []
+        },
+         projectFourth = {
+            title: 'Neighborhood - Warsaw Cultural Map',
+            dates: '05/2018 - 06/2018',
+            description: 'Project made during Google Front-End Web Developer Nanodegree Scholarship',
+            url: 'https://hajczek.github.io/Neighborhood---Warsaw-Cultural-Map/',
+            images: []
+        },
         projectThird = {
-            title: '',
-            dates: '',
-            description: '',
+            title: 'Classic Arcade Game',
+            dates: '04/2018 - 05/2018',
+            description: 'Game made during Google Front-End Web Developer Nanodegree Scholarship',
+            url: 'https://hajczek.github.io/arcade-game/',
             images: []
         },
          projectSecond = {
-            title: '',
-            dates: '',
-            description: '',
+            title: 'Memory Game',
+            dates: '03/2018',
+            description: 'Game made during Google Front-End Web Developer Nanodegree Scholarship.',
+            url: 'https://hajczek.github.io/memory-game/',
             images: []
         },
          projectFirst = {
-            title: '',
-            dates: '',
-            description: '',
+            title: 'Pixel Art Maker',
+            dates: '12/2017 - 01/2018',
+            description: 'Project made during Google Challenge Scholarship: Front-End Web Dev.',
+            url: 'https://hajczek.github.io/pixel-art-maker-project/',
+            images: []
+        },
+        project = {
+            title: 'Website of my one-person company',
+            dates: '01/2017',
+            description: 'Website made for Serwis stron, my one-person company',
+            url: 'http://www.serwisstron.pl',
             images: []
         }
     ],
