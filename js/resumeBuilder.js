@@ -26,7 +26,7 @@ Object with informations about education
 const education = {
     schools: [
         universitySecond = {
-            name: 'University of Warsaw - Pedagogic faculty',
+            name: 'University of Warsaw',
             location: 'Warsaw, Poland',
             degree: 'master',
             majors: ['Early School Pedagogy'],
@@ -34,7 +34,7 @@ const education = {
             url: 'http://en.uw.edu.pl/'
         },
         universityFirst = {
-            name: 'University of Warsaw - Pedagogic faculty',
+            name: 'University of Warsaw',
             location: 'Warsaw, Poland',
             degree: 'licentiate',
             majors: ['Early School Pedagogy'],
