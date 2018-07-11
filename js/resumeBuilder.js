@@ -5,7 +5,7 @@ Objects with informations
 const bio = {
         "name": "Iwona Kolanowska",
         "role": "Front-End Web Development",
-        "constacts": {
+        "contacts": {
             "mobile": "+48 605 832 505",
             "email": "i.hajczewska@gmail.com",
             "github": "https://github.com/hajczek",
@@ -58,10 +58,9 @@ const education = {
             },
             {
                 "title": "EITCA Computer Graphics Programme",
-                "school": "EUROPEAN INFORMATION TECHNOLOGIES CERTIFICATION INSTITUTE",
+                "school": "EUROPEAN INFORMATION TECHNOLOGIES CERTIFICATION INSTITUTE - Certificate Id: EITCA/EG/JQF16004487",
                 "dates": "08/2016",
-                "url": "https://www.eitci.org/validate",
-                "certificateId": "EITCA/EG/JQF16004487"
+                "url": "https://www.eitci.org/validate"
             },
         ]  
     };
@@ -156,19 +155,19 @@ bio.display = function(){
     $('#header').prepend(formattedName);
 
 
-    let formattedLocation = HTMLlocation.replace("%data%", bio.constacts.location);
+    let formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
     $('#topContacts').prepend(formattedLocation);
     $('#footerContacts').prepend(formattedLocation);
 
-    let formattedGithub = HTMLgithub.replace("%data%", bio.constacts.github);
+    let formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
     $('#topContacts').prepend(formattedGithub);
     $('#footerContacts').prepend(formattedGithub);
 
-    let formattedEmail = HTMLemail.replace("%data%", bio.constacts.email);
+    let formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
     $('#topContacts').prepend(formattedEmail);
     $('#footerContacts').prepend(formattedEmail);
 
-    let formattedMobile = HTMLmobile.replace("%data%", bio.constacts.mobile);
+    let formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
     $('#topContacts').prepend(formattedMobile);
     $('#footerContacts').prepend(formattedMobile);
 
@@ -194,6 +193,7 @@ bio.display();
 
 
 work.display = function() {
+    
     let jobs = work.jobs;
 	if(jobs.length > 0) {
 		for(i in jobs) {
@@ -217,6 +217,7 @@ work.display();
 
 
 projects.display = function() {
+    
     let allProjects = projects.projects;
 	if(allProjects.length > 0) {
 		for(i in allProjects) {
@@ -242,6 +243,7 @@ projects.display();
 
 
 education.display = function() {
+    
     let schools = education.schools;
 	if(schools.length > 0) {
 		for(i in schools) {
@@ -282,6 +284,8 @@ education.display = function() {
 
 education.display();
 
+
+$("#mapDiv").append(googleMap);
 
 
 
