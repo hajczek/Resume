@@ -158,15 +158,19 @@ bio.display = function(){
 
     let formattedLocation = HTMLlocation.replace("%data%", bio.constacts.location);
     $('#topContacts').prepend(formattedLocation);
+    $('#footerContacts').prepend(formattedLocation);
 
     let formattedGithub = HTMLgithub.replace("%data%", bio.constacts.github);
     $('#topContacts').prepend(formattedGithub);
+    $('#footerContacts').prepend(formattedGithub);
 
     let formattedEmail = HTMLemail.replace("%data%", bio.constacts.email);
     $('#topContacts').prepend(formattedEmail);
+    $('#footerContacts').prepend(formattedEmail);
 
     let formattedMobile = HTMLmobile.replace("%data%", bio.constacts.mobile);
     $('#topContacts').prepend(formattedMobile);
+    $('#footerContacts').prepend(formattedMobile);
 
 
     let formattedPic = HTMLbioPic.replace("%data%", bio.biopic);
