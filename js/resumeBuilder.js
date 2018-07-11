@@ -11,7 +11,7 @@ const bio = {
             "github": "https://github.com/hajczek",
             "location": "Warsaw, Poland"
         },
-        "welcomeMessage": "I'm a self-employed in Serwis stron  company. I designing and coding  websites for small and medium companies.",
+        "welcomeMessage": "I'm a self-employed in Serwis stron company. I designing and coding  websites for small and medium companies.",
         "skills": ["HTML5", "CSS3", "JavaScript", "jQuery", "React", "Git", "Grid", "Photoshop"],
         "biopic": "images/197x148.gif"   
     };
@@ -246,9 +246,10 @@ education.display = function() {
     
     let schools = education.schools;
 	if(schools.length > 0) {
+        
 		for(i in schools) {
 			$("#education").append(HTMLschoolStart);
-                        
+            
             let formattedSchoolName = HTMLschoolName.replace("%data%", schools[i].name).replace("#", schools[i].url);
             let formattedSchoolDegree = HTMLschoolDegree.replace("%data%", schools[i].degree);
             let formattedSchoolDates = HTMLschoolDates.replace("%data%", schools[i].dates);
@@ -262,11 +263,11 @@ education.display = function() {
 		}
 	}
     
-    let courses = education.onlineCourses
+    let courses = education.onlineCourses;
     if(courses.length > 0) {
         $(".education-entry:last").append(HTMLonlineCourses);
-		for(i in courses) {            
-            
+        
+		for(i in courses) {        
             let formattedOnlineTitle = HTMLonlineTitle.replace("%data%", courses[i].title).replace("#", courses[i].url);
             let formattedOnlineSchool = HTMLonlineSchool.replace("%data%", courses[i].school);
             let formattedOnlineDates = HTMLonlineDates.replace("%data%", courses[i].dates);
@@ -277,8 +278,7 @@ education.display = function() {
             $(".education-entry:last").append(formattedOnlineURL);
 
 		}
-	}
-    
+	}    
     
 }
 
