@@ -1,5 +1,5 @@
 /*
-Object with 'bio' informations
+Objects with informations
  */
 
 const bio = {
@@ -160,3 +160,17 @@ const projects = {
 
 let formattedName = HTMLheaderName.replace("%data%", bio.name);
 $('#main').prepend(formattedName);
+
+let formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+$('#main').prepend(formattedRole);
+
+let formattedMobile = HTMLmobile.replace("%data%", bio.constacts.mobile);
+$('#topContacts').prepend(formattedMobile);
+
+
+
+
+
+    
+
+
