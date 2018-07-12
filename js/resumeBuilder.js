@@ -13,7 +13,7 @@ const bio = {
         },
         "welcomeMessage": "I'm a self-employed in Serwis stron company. I designing and coding  websites for small and medium companies.",
         "skills": ["HTML5", "CSS3", "JavaScript", "jQuery", "React", "Git", "Grid", "Photoshop"],
-        "biopic": "images/197x148.gif"   
+        "biopic": "images/IK.png"   
     };
 
 const education = {
