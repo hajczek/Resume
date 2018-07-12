@@ -59,7 +59,6 @@ h4 {
 }
 
 h2,
-h3,
 h4,
 h5 {
   padding: 10px 5%;
@@ -95,6 +94,24 @@ a {
   text-decoration: none;
   margin-top: 0;
   display: block;
+}
+
+a.title {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.title:hover {
+    text-decoration: none;
+}
+
+a.link {
+    color: #666;
+    text-decoration: underline;
+}
+
+a.link:hover {
+    text-decoration: none;
 }
 
 .welcome-message {
