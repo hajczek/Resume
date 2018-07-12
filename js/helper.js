@@ -179,6 +179,12 @@ function initializeMap() {
     // hmmmm, I wonder what this is about...
     google.maps.event.addListener(marker, 'click', function() {
       // your code goes here!
+        
+        let infowindow = new google.maps.InfoWindow({
+            content: name
+          });
+
+        infowindow.open(marker.get('map'), marker);
     });
 
     // this is where the pin actually gets added to the map.
