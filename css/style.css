@@ -1,3 +1,7 @@
+body {
+    font-size: 18px;
+}
+
 body,
 div,
 ul,
@@ -48,16 +52,16 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #444;
+  color: #333;
   line-height: 29px;
   padding: 10px;
 }
 
 h3 {
   font-style: italic;
-  font-size: 18px;
-  color: #000;
-  line-height: 22px;
+  font-size: 20px;
+  color: #555;
+  line-height: 40px;
 }
 
 h4 {
@@ -77,25 +81,25 @@ h5 {
 
 .date-text {
   font-style: italic;
-  font-size: 14px;
-  color: #888;
-  line-height: 16px;
+  font-size: 15px;
+  color: #666;
+  line-height: 18px;
   float: left;
 }
 
 .location-text {
   font-style: italic;
-  font-size: 14px;
-  color: #999;
+  font-size: 15px;
+  color: #555;
   line-height: 16px;
   float: right;
 
 }
 
 p {
-  font-size: 14px;
+  font-size: 0.9em;
   color: #333;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 a {
@@ -136,7 +140,7 @@ a.link:hover {
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: #5fbdd5;
 }
 
 .orange-text {
@@ -154,12 +158,12 @@ a.link:hover {
 }
 
 .dark-gray {
-  background-color: #4a4a4a;
+  background-color: #222;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background: linear-gradient(to right, #000 , #333);
+  background-color: #222;
 }
 
 .flex-box {
@@ -184,6 +188,7 @@ a.link:hover {
 
 ul {
   list-style-type: none;
+    font-size: 0.9em;
 }
 
 .biopic {
