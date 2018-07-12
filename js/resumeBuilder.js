@@ -1,5 +1,5 @@
 /*
-Objects with informations
+Objects with bio, education, work and projects informations
  */
 
 const bio = {
@@ -145,7 +145,8 @@ const projects = {
         ] 
     }
 
-/*  */
+
+/* Function displays information from bio object */
 
 bio.display = function(){
     let formattedRole = HTMLheaderRole.replace("%data%", bio.role);
@@ -192,6 +193,8 @@ bio.display = function(){
 bio.display();
 
 
+/* Function displays information from work object */
+
 work.display = function() {
     
     let jobs = work.jobs;
@@ -215,6 +218,8 @@ work.display = function() {
 
 work.display();
 
+
+/* Function displays information from projects object */
 
 projects.display = function() {
     
@@ -241,6 +246,8 @@ projects.display = function() {
 
 projects.display();
 
+
+/* Function displays information from education object */
 
 education.display = function() {
     
@@ -284,6 +291,8 @@ education.display = function() {
 
 education.display();
 
+
+/* Displays googleMap */
 
 $("#mapDiv").append(googleMap);
 
