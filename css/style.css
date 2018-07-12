@@ -18,6 +18,14 @@ h6 {
   overflow: auto;
 }
 
+#education {
+    padding-bottom: 30px;
+}
+
+#projects {
+    padding: 15px 0;
+}
+
 .education-entry,
 .work-entry,
 .project-entry {
@@ -141,7 +149,7 @@ a.link:hover {
 
 .gray {
   background-color: #f3f3f3;
-  padding-bottom: 10px;
+  padding: 15px 0;
   clear: both;
 }
 
@@ -232,7 +240,7 @@ span {
 #mapDiv {
   height: 400px;
   width: 100%;
-  padding-bottom: 5%;
+  padding: 15px 0 80px 0;
 }
 
 @media only screen and (min-width: 750px) {
