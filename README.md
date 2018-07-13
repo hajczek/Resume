@@ -1,6 +1,6 @@
 # Resume
 
-My resume.
+This resume was made as project during Google FEND scholarship.
 
 ## LINK
 
