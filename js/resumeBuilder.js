@@ -79,7 +79,7 @@ const work = {
                 "title": "Younger website designer",
                 "location": "Nocznickiego 33, 01-918 Warsaw, Poland",
                 "dates": "11/2007 - 08/2008",
-                "description": "Coding web layouts (HTML, CSS, JS)self-employed"
+                "description": "Coding web layouts (HTML, CSS, JS)"
             },
             {
                 "employer": "ATCOM SA",
