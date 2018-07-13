@@ -8,10 +8,10 @@ const bio = {
         "contacts": {
             "mobile": "+48 605 832 505",
             "email": "i.hajczewska@gmail.com",
-            "github": "https://github.com/hajczek",
+            "github": "<a href='https://github.com/hajczek' target='_blank'>github.com/hajczek</a>",
             "location": "Piasta 11, 05-822 Milanówek, Poland"
         },
-        "welcomeMessage": "I'm a self-employed in Serwis stron company. I designing and coding  websites for small and medium companies.",
+        "welcomeMessage": "I'm a self-employed in company 'Serwis stron'. I designing and coding  websites for small and medium companies.",
         "skills": ["HTML5", "CSS3", "JavaScript", "jQuery", "React", "Git", "Grid", "Photoshop"],
         "biopic": "images/IK.png"   
     };

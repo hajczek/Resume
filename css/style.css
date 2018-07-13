@@ -104,12 +104,12 @@ a {
   color: #057fa5;
   text-decoration: none;
   margin-top: 0;
-  display: block;
 }
 
 a.title {
     text-decoration: underline;
     font-weight: bold;
+    display: block;
 }
 
 a.title:hover {
@@ -146,8 +146,13 @@ a.link:hover {
   color: #98d8f7;
 }
 
-.white-text {
+.white-text,
+.white-text a{
   color: #d7cdc1;
+}
+
+.white-text a:hover {
+    color: #f34299;
 }
 
 .gray {
