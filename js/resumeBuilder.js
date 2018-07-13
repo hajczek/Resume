@@ -6,8 +6,8 @@ const bio = {
         "name": "Iwona Kolanowska",
         "role": "Front-End Web Development",
         "contacts": {
-            "mobile": "+48 605 832 505",
-            "email": "i.hajczewska@gmail.com",
+            "mobile": "<a href='tel:+48605832505'>+48 605 832 505</a>",
+            "email": "<a href='mailto:i.hajczewska@gmail.com'>i.hajczewska@gmail.com</a>",
             "github": "<a href='https://github.com/hajczek' target='_blank'>github.com/hajczek</a>",
             "location": "Piasta 11, 05-822 Milanówek, Poland"
         },
