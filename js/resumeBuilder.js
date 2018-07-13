@@ -9,7 +9,7 @@ const bio = {
             "mobile": "+48 605 832 505",
             "email": "i.hajczewska@gmail.com",
             "github": "https://github.com/hajczek",
-            "location": "Poland, 05-822 Milanówek, Piasta 11"
+            "location": "Piasta 11, 05-822 Milanówek, Poland"
         },
         "welcomeMessage": "I'm a self-employed in Serwis stron company. I designing and coding  websites for small and medium companies.",
         "skills": ["HTML5", "CSS3", "JavaScript", "jQuery", "React", "Git", "Grid", "Photoshop"],
@@ -20,7 +20,7 @@ const education = {
         "schools": [
             {
                 "name": "University of Warsaw",
-                "location": "Poland, 00-561 Warsaw, Mokotowska 16/20",
+                "location": "Mokotowska 16/20, 00-561 Warsaw, Poland",
                 "degree": "master",
                 "majors": ["Early School Pedagogy"],
                 "dates": "2000 - 2003",
@@ -28,7 +28,7 @@ const education = {
             },
             {
                 "name": "University of Warsaw",
-                "location": "Poland, 00-561 Warsaw, Mokotowska 16/20",
+                "location": "Mokotowska 16/20, 00-561 Warsaw, Poland",
                 "degree": "licentiate",
                 "majors": ["Early School Pedagogy"],
                 "dates": "1997 - 2000",
@@ -36,7 +36,7 @@ const education = {
             },
             {
                 "name": "Technikum Terenów Zieleni",
-                "location": "Poland, 05-250 Radzymin, Jana Pawła II 18",
+                "location": "Jana Pawła II 18, 05-250 Radzymin, Poland",
                 "degree": "technician",
                 "majors": ["Landscape architecture"],
                 "dates": "1994 - 1997",
@@ -70,21 +70,21 @@ const work = {
             {
                 "employer": "Serwis stron",
                 "title": "self-employed",
-                "location": "Poland, 05-822 Milanówek, Piasta 11",
+                "location": "Piasta 11, 05-822 Milanówek, Poland",
                 "dates": "01/2009 - now",
                 "description": "Remote implementation of websites for small and medium companies, based on the Quick.CMS system. Designing and coding websites."
             },
             {
                 "employer": "nonstop studio",
                 "title": "Younger website designer",
-                "location": "Poland, 01-918 Warsaw, Nocznickiego 33",
+                "location": "Nocznickiego 33, 01-918 Warsaw, Poland",
                 "dates": "11/2007 - 08/2008",
                 "description": "Coding web layouts (HTML, CSS, JS)self-employed"
             },
             {
                 "employer": "ATCOM SA",
                 "title": "Independent consultant at the Customer Service Office",
-                "location": "Poland, 03-839 Warsaw, Grochowska 316/320",
+                "location": "Grochowska 316/320, 03-839 Warsaw, Poland",
                 "dates": "07/2004 - 05/2007",
                 "description": "Customer service"
             }
