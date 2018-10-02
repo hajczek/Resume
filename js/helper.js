@@ -39,7 +39,8 @@ var HTMLworkDescription = '<p><br>%data%</p>';
 var HTMLprojectStart = '<div class="project-entry"></div>';
 var HTMLprojectTitle = '<a class="title" href="#" target="_blank">%data%</a>';
 var HTMLprojectDates = '<div class="date-text">%data%</div>';
-var HTMLprojectDescription = '<p><br>%data%</p>';
+var HTMLprojectDescription = '<p class="desc" ><br>%data%</p>';
+var HTMLprojectTechnologies = '<p class="tech"><span>Technologies: </span>%data%</p>';
 var HTMLprojectImage = '<img src="%data%">';
 
 var HTMLschoolStart = '<div class="education-entry"></div>';
@@ -53,7 +54,7 @@ var HTMLonlineCourses = '<h3>Online Courses</h3>';
 var HTMLonlineTitle = '<br><a class="title" href="#" target="_blank">%data%';
 var HTMLonlineSchool = ' - %data%</a>';
 var HTMLonlineDates = '<div class="date-text">%data%</div>';
-var HTMLonlineURL = '<br><a class="link" href="#">%data% &raquo;</a>';
+var HTMLonlineURL = '<br><a class="link" href="%data%">Link &raquo;</a>';
 
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';

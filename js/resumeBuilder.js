@@ -9,9 +9,9 @@ const bio = {
             "mobile": "<a href='tel:+48605832505'>+48 605 832 505</a>",
             "email": "<a href='mailto:i.hajczewska@gmail.com'>i.hajczewska@gmail.com</a>",
             "github": "<a href='https://github.com/hajczek' target='_blank'>github.com/hajczek</a>",
-            "location": "Piasta 11, 05-822 Milanówek, Poland"
+            "location": "Poland, 05-822 Milanówek<br>Piasta 11"
         },
-        "welcomeMessage": "I'm a self-employed in company 'Serwis stron'. I designing and coding  websites. My career goal is work as a Front-End Web Developer.",
+        "welcomeMessage": "I'm self-employed in company 'Serwis stron'. I design and code websites. My career goal is to work as a FrontEnd Web Developer.",
         "skills": ["HTML5", "CSS3", "JavaScript", "jQuery", "React", "Git", "Grid", "Photoshop"],
         "biopic": "images/IK.png"   
     };
@@ -76,17 +76,17 @@ const work = {
             },
             {
                 "employer": "nonstop studio",
-                "title": "Younger website designer",
+                "title": "Website designer",
                 "location": "Nocznickiego 33, 01-918 Warsaw, Poland",
                 "dates": "11/2007 - 08/2008",
-                "description": "Cutting PSD graphic templates. Encoding of PSD templates to HTML/CSS."
+                "description": "Cut and encoded PSD graphic templates into HTML and CSS. Actualized websites content for clients of the company."
             },
             {
                 "employer": "ATCOM SA",
-                "title": "Independent consultant at the Customer Service Office",
+                "title": "Product consultant",
                 "location": "Grochowska 316/320, 03-839 Warsaw, Poland",
                 "dates": "07/2004 - 05/2007",
-                "description": "Customer service"
+                "description": "Advice on the company's products and services."
             }
         ]  
     };
@@ -97,48 +97,55 @@ const projects = {
                 "title": "Portfolio",
                 "dates": "03/2018",
                 "description": "My portfolio online.",
+                "technologies": "HTML5, CSS3, Grid",
                 "url": "https://hajczek.github.io/portfolio/",
                 "images": []
             },
             {
                 "title": "e-Cook-Book",
                 "dates": "01/2018 - 02/2018",
-                "description": "I was an originator of this project. This project was made by group of students FEND Scholarship.",
+                "description": "Open-Source project. Conception and coordination. Realisation with a group of Google Developer Challenge Scholarship students.",
+                "technologies": "HTML5, CSS3, JavaScript, Bootstrap, PHP, SQLLite3",
                 "url": "http://e-cookbook.online/",
                 "images": []
             },
             {
-                "title": "Neighborhood - Warsaw Cultural Map",
+                "title": "Warsaw cultural map",
                 "dates": "05/2018 - 06/2018",
-                "description": "Project made during Google Front-End Web Developer Nanodegree Scholarship.",
+                "description": "Warsaw cultural map with theatres, cinemas, galeries and museums.",
+                "technologies": "HTML5, CSS3, JavaScript + React, Google Maps API, Wikipedia API",
                 "url": "https://hajczek.github.io/Neighborhood---Warsaw-Cultural-Map/",
                 "images": []
             },
             {
-                "title": "Classic Arcade Game",
+                "title": "Easter Egg",
                 "dates": "04/2018 - 05/2018",
-                "description": "Game made during Google Front-End Web Developer Nanodegree Scholarship",
+                "description": "Classic Arcade Game",
+                "technologies": "HTML5, CSS3, JavaScript",
                 "url": "https://hajczek.github.io/arcade-game/",
                 "images": []
             },
             {
-                "title": "Memory Game",
+                "title": "Match photos",
                 "dates": "03/2018",
-                "description": "Game made during Google Front-End Web Developer Nanodegree Scholarship.",
+                "description": "Memory Game",
+                "technologies": "HTML5, CSS3, JavaScript",
                 "url": "https://hajczek.github.io/memory-game/",
                 "images": []
             },
             {
                 "title": "Pixel Art Maker",
                 "dates": "12/2017 - 01/2018",
-                "description": "Project made during Google Challenge Scholarship: Front-End Web Dev.",
+                "description": "Application for artists allows drawing with pixels.",
+                "technologies": "HTML5, CSS3, JavaScript, jQuery",
                 "url": "https://hajczek.github.io/pixel-art-maker-project/",
                 "images": []
             },
             {
-                "title": "Website of my one-person company",
+                "title": "Company website",
                 "dates": "01/2017",
                 "description": "Website made for 'Serwis stron' - my one-person company.",
+                "technologies": "HTML5, CSS3, jQuery",
                 "url": "http://www.serwisstron.pl",
                 "images": []
             }
@@ -231,10 +238,12 @@ projects.display = function() {
 			let formattedProjectTitle = HTMLprojectTitle.replace("%data%", allProjects[i].title).replace("#", allProjects[i].url);
             let formattedProjectDates = HTMLprojectDates.replace("%data%", allProjects[i].dates);          
 			let formattedProjectDescription = HTMLprojectDescription.replace("%data%", allProjects[i].description);
+            let formattedProjectTechnologies = HTMLprojectTechnologies.replace("%data%", allProjects[i].technologies);
             
             $(".project-entry:last").append(formattedProjectTitle);
             $(".project-entry:last").append(formattedProjectDates);
             $(".project-entry:last").append(formattedProjectDescription);
+            $(".project-entry:last").append(formattedProjectTechnologies);
             
             for(pic in allProjects[i].images) {
 				var formattedProjectImage = HTMLprojectImage.replace("%data%",  allProjects[i].images[pic]);
