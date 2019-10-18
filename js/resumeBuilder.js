@@ -74,6 +74,13 @@ const work = {
                 "dates": "01/2009 - now",
                 "description": "Remote implementation of website - designing and coding. Implementation of open-sorce CMS systems. Updating and modernizing websites."
             },
+	    {
+                "employer": "Splio",
+                "title": "Campaign Executive",
+                "location": "Warsaw, Masovian District, Poland",
+                "dates": "02/2019 - 05/2019",
+                "description": "Delivering completely connected customer experiences on and offline, driving loyalty and revenue for retailers."
+            },
             {
                 "employer": "nonstop studio",
                 "title": "Website designer",
