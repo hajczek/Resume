@@ -319,6 +319,7 @@ span {
     }
     .biopic {
        width: 150px;
+        margin-right: 20px;
     }  
 }
 
@@ -349,7 +350,7 @@ span {
         margin-bottom: 10px;
     }
     .welcome-message {
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .flex-column {
         flex-direction: column;
