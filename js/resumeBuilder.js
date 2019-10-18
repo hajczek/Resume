@@ -4,7 +4,7 @@ Objects with bio, education, work and projects informations
 
 const bio = {
         "name": "Iwona Kolanowska",
-        "role": "Front-End Web Development",
+        "role": "Front-End Web Developer",
         "contacts": {
             "mobile": "<a href='tel:+48605832505'>+48 605 832 505</a>",
             "email": "<a href='mailto:i.hajczewska@gmail.com'>i.hajczewska@gmail.com</a>",
