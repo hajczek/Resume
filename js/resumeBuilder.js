@@ -79,7 +79,7 @@ const work = {
                 "title": "Campaign Executive",
                 "location": "Warsaw, Masovian District, Poland",
                 "dates": "02/2019 - 05/2019",
-                "description": "Delivering completely connected customer experiences on and offline, driving loyalty and revenue for retailers."
+                "description": "Coding HTML and CSS email templates."
             },
             {
                 "employer": "nonstop studio",
