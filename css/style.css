@@ -319,7 +319,7 @@ span {
     }
     .biopic {
        width: 150px;
-        margin-right: 20px;
+       padding-right: 20px;
     }  
 }
 
