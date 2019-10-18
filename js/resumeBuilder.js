@@ -19,6 +19,14 @@ const bio = {
 const education = {
         "schools": [
             {
+                "name": "Akademia Leona Koźmińskiego",
+                "location": "Jagiellońska 57/59, 03-301 Warsaw, Poland",
+                "degree": "postgraduate studies",
+                "majors": ["Frontend development with React"],
+                "dates": "2019 - now (in progress)",
+                "url": "https://www.kozminski.edu.pl/pl/"
+            },
+      	   {
                 "name": "University of Warsaw",
                 "location": "Mokotowska 16/20, 00-561 Warsaw, Poland",
                 "degree": "master",
