@@ -11,7 +11,7 @@ const bio = {
             "github": "<a href='https://github.com/hajczek' target='_blank'>github.com/hajczek</a>",
             "location": "Poland, 05-822 Milanówek<br>Piasta 11"
         },
-        "welcomeMessage": "I'm self-employed in company 'Serwis stron'. I design and code websites. My career goal is to work as a FrontEnd Web Developer.",
+        "welcomeMessage": "I'm self-employed in company 'Serwis stron'. I design and code websites. My current career goal is to be a Front-End Developer in a professional Front-End team.",
         "skills": ["HTML5", "CSS3", "JavaScript", "jQuery", "React", "Git", "Grid", "Photoshop"],
         "biopic": "images/IK.png"   
     };
