@@ -63,7 +63,6 @@ h2 {
 }
 
 h3 {
-  font-style: italic;
   color: #555;
   line-height: 30px;
 }
@@ -193,7 +192,7 @@ a.link:hover {
   flex-direction: row;
   flex-wrap: wrap;
   /* justify-content: space-around; */
-  padding: 10px 0 20px 0;
+  padding: 10px 0 30px 0;
 }
 
 #topContacts .flex-item,
@@ -207,6 +206,7 @@ a.link:hover {
   /* flex-direction: column; */
   flex-wrap: nowrap;
   padding: 10px 0;
+  font-size: 20px;
 }
 
 .center-content {
@@ -236,30 +236,34 @@ img {
 }
 
 #skills li:nth-child(2) span {
-    color: #f7a1cc;
+  color: #f7a1cc;
 }
 
 #skills li:nth-child(3) span {
-    color: #e170ab;
+    color: #f7a1cc;
 }
 
 #skills li:nth-child(4) span {
-    color: #df5699;
+    color: #e170ab;
 }
 
 #skills li:nth-child(5) span {
-    color: #f34299;
+    color: #df5699;
 }
 
 #skills li:nth-child(6) span {
-    color: #ef2589;
+    color: #f34299;
 }
 
 #skills li:nth-child(7) span {
-    color: #db0971;
+    color: #ef2589;
 }
 
 #skills li:nth-child(8) span {
+    color: #db0971;
+}
+
+#skills li:nth-child(9) span {
     color: #b6055d;
 }
 #skills span {

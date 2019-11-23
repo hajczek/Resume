@@ -9,7 +9,7 @@ const bio = {
         "mobile": "<a href='tel:+48605832505'>+48 605 832 505</a>",
         "email": "<a href='mailto:i.hajczewska@gmail.com'>i.hajczewska@gmail.com</a>",
         "github": "<a href='https://github.com/hajczek' target='_blank'>github.com/hajczek</a>",
-        "location": "Poland, 05-822 Milanówek<br>Piasta 11"
+        "location": "Poland, Milanówek, Piasta 11"
     },
     "welcomeMessage": "Self-employed in the company 'Serwis stron'. Design and code websites.<br>Current career goal, work as a Front-End Developer in a professional Front-End team.",
     "skills": ["HTML", "CSS", "JavaScript", "jQuery", "TypeScript", "React", "Git", "NPM", "Photoshop"],
