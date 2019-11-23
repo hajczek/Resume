@@ -235,35 +235,35 @@ img {
     padding-right: 5px;
 }
 
-#skills li:nth-child(2) span {
+#skills li:nth-child(3) span {
   color: #f7a1cc;
 }
 
-#skills li:nth-child(3) span {
+#skills li:nth-child(4) span {
     color: #f7a1cc;
 }
 
-#skills li:nth-child(4) span {
+#skills li:nth-child(5) span {
     color: #e170ab;
 }
 
-#skills li:nth-child(5) span {
+#skills li:nth-child(6) span {
     color: #df5699;
 }
 
-#skills li:nth-child(6) span {
+#skills li:nth-child(7) span {
     color: #f34299;
 }
 
-#skills li:nth-child(7) span {
+#skills li:nth-child(8) span {
     color: #ef2589;
 }
 
-#skills li:nth-child(8) span {
+#skills li:nth-child(9) span {
     color: #db0971;
 }
 
-#skills li:nth-child(9) span {
+#skills li:nth-child(10) span {
     color: #b6055d;
 }
 #skills span {

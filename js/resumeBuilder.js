@@ -12,7 +12,7 @@ const bio = {
         "location": "Poland, Milanówek, Piasta 11"
     },
     "welcomeMessage": "Self-employed in the company 'Serwis stron'. Design and code websites.<br>Current career goal, work as a Front-End Developer in a professional Front-End team.",
-    "skills": ["HTML", "CSS", "JavaScript", "jQuery", "TypeScript", "React", "Git", "NPM", "Photoshop"],
+    "skills": ["HTML", "CSS", "SASS", "JavaScript", "jQuery", "TypeScript", "React", "Git", "NPM", "Photoshop"],
     "biopic": "images/IK.png"
 };
 
