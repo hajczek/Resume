@@ -226,7 +226,7 @@ ul {
 
 img {
   padding: 10px;
-  filter: contrast(60%) hue-rotate(160deg);
+  /* filter: contrast(60%) hue-rotate(160deg); */
 }
 
 
