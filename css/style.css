@@ -28,6 +28,7 @@ h6 {
 
 #projects {
     padding: 15px 0;
+    font-size: 20px;
 }
 
 .education-entry,
@@ -83,9 +84,8 @@ h5 {
 
 
 .date-text {
-  font-style: italic;
   font-size: 0.9em;
-  color: #666;
+  color: #444;
   line-height: 1;
   float: left;
 }
@@ -152,7 +152,6 @@ a.link:hover {
 #skills-h3 {
   color: #98d8f7;
   display: none;
-  margin-top: 40px;
 }
 
 .orange {
@@ -176,6 +175,7 @@ a.link:hover {
   background-color: #e1e1e1;
   padding: 15px 0;
   clear: both;
+  font-size: 20px;
 }
 
 .dark-gray {
@@ -327,7 +327,11 @@ span {
 @media only screen and (min-width: 750px) {
   #skills-h3,
   .biopic {
-    display: block;
+    display: flex;
+  }
+  #skills-h3 {
+    width: 200px;
+    margin-top: 20px;
   }
 }
 
