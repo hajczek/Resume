@@ -20,7 +20,7 @@ const education = {
     "schools": [
         {
             "name": "Akademia Leona Koźmińskiego",
-            "location": "Jagiellońska 57/59, 03-301 Warsaw, Poland",
+            "location": "Poland, Masovian District, 03-301 Warsaw, Jagiellońska 57/59 street",
             "degree": "postgraduate studies",
             "majors": ["Frontend development with React"],
             "dates": "2019 - now (in progress)",
@@ -28,7 +28,7 @@ const education = {
         },
         {
             "name": "University of Warsaw",
-            "location": "Mokotowska 16/20, 00-561 Warsaw, Poland",
+            "location": "Poland, Masovian District, 00-561 Warsaw, Mokotowska 16/20 street",
             "degree": "master",
             "majors": ["Early School Pedagogy"],
             "dates": "2000 - 2003",
@@ -36,7 +36,7 @@ const education = {
         },
         {
             "name": "University of Warsaw",
-            "location": "Mokotowska 16/20, 00-561 Warsaw, Poland",
+            "location": "Poland, Masovian District, 00-561 Warsaw, Mokotowska 16/20 street",
             "degree": "licentiate",
             "majors": ["Early School Pedagogy"],
             "dates": "1997 - 2000",
