@@ -121,7 +121,7 @@ const projects = {
             "title": "Markdown Previewer",
             "dates": "10/2019",
             "description": "Editable text field with possibility for uses Markdown tags to formate text.",
-            "technologies": "HTML5, CSS3, JavaScript + React",
+            "technologies": "HTML5, CSS3, JavaScript + React, a markdown parser and compiler",
             "url": "https://hajczek.github.io/markdown-previewer/",
             "images": []
         },
