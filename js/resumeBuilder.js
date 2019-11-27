@@ -41,14 +41,6 @@ const education = {
             "majors": ["Early School Pedagogy"],
             "dates": "1997 - 2000",
             "url": "http://en.uw.edu.pl/"
-        },
-        {
-            "name": "Technikum Terenów Zieleni",
-            "location": "Jana Pawła II 18, 05-250 Radzymin, Poland",
-            "degree": "technician",
-            "majors": ["Landscape architecture"],
-            "dates": "1994 - 1997",
-            "url": "http://zstz-radzymin.pl/"
         }
     ],
     "onlineCourses": [
