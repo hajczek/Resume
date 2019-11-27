@@ -234,13 +234,12 @@ img {
 #footerContacts span {
     padding-right: 5px;
 }
-
 #skills li:nth-child(3) span {
   color: #f7a1cc;
 }
 
 #skills li:nth-child(4) span {
-    color: #f7a1cc;
+  color: #f7a1cc;
 }
 
 #skills li:nth-child(5) span {
@@ -248,23 +247,27 @@ img {
 }
 
 #skills li:nth-child(6) span {
-    color: #df5699;
+    color: #e170ab;
 }
 
 #skills li:nth-child(7) span {
-    color: #f34299;
+    color: #df5699;
 }
 
 #skills li:nth-child(8) span {
-    color: #ef2589;
+    color: #df5699;
 }
 
 #skills li:nth-child(9) span {
-    color: #db0971;
+    color: #ef2589;
 }
 
 #skills li:nth-child(10) span {
-    color: #b6055d;
+    color: #ef2589;
+}
+
+#skills li:nth-child(11) span {
+    color: #d6066d;
 }
 #skills span {
     padding-right: 10px;
