@@ -9,7 +9,7 @@ const bio = {
         "mobile": "<a href='tel:+48605832505'>+48 605 832 505</a>",
         "email": "<a href='mailto:i.hajczewska@gmail.com'>i.hajczewska@gmail.com</a>",
         "github": "<a href='https://github.com/hajczek' target='_blank'>github.com/hajczek</a>",
-        "location": "Poland, Milanówek, Piasta 11"
+        "location": "Poland, Milanówek"
     },
     "welcomeMessage": "Self-employed in the company 'Serwis stron'. Design and code websites.<br>Career goal: remote work as a Front-End Web Developer in a professional frontend team, with the possibility of further development.",
     "skills": ["HTML", "CSS", "SASS", "JavaScript", "jQuery", "TypeScript", "React", "Git", "NPM", "Photoshop", "English B1"],
@@ -42,7 +42,10 @@ const education = {
             "dates": "1997 - 2000",
             "url": "http://en.uw.edu.pl/"
         }
-    ],
+    ]
+};
+
+const selfEducation = {
     "onlineCourses": [
         {
             "title": "Front-End Web Developer Nanodegree",
@@ -58,7 +61,7 @@ const education = {
         },
         {
             "title": "EITCA Computer Graphics Programme",
-            "school": "EITCI<br>Certificate Id: EITCA/EG/JQF16004487",
+            "school": "EITCI<br><span class='cert'>Certificate Id: EITCA/EG/JQF16004487</span>",
             "dates": "08/2016",
             "url": "https://www.eitci.org/validate"
         },
@@ -72,7 +75,7 @@ const work = {
             "title": "self-employed",
             "location": "Poland, Masovian District, 05-822 Milanówek, Piasta 11 street",
             "dates": "01/2009 - now",
-            "description": "Remote implementation of website - designing and coding. Implementation of open-sorce CMS systems. Updating and modernizing websites."
+            "description": "Remote implementation of websites - designing and coding. Implementation of open-source CMS systems. Updating and modernizing websites."
         },
         {
             "employer": "Splio",
@@ -86,7 +89,7 @@ const work = {
             "title": "Website designer",
             "location": "Poland, Masovian District, 01-918 Warsaw, Nocznickiego 33 street",
             "dates": "11/2007 - 08/2008",
-            "description": "Cut and encoded PSD graphic templates into HTML and CSS. Actualized websites content for clients of the company."
+            "description": "Cutting and encoding PSD graphic templates into HTML and CSS. Actualizing websites content."
         },
         {
             "employer": "ATCOM SA",
@@ -100,7 +103,6 @@ const work = {
 
 const projects = {
     "projects": [
-
         {
             "title": "Naighborhood",
             "dates": "05/2018 - 06/2018",
@@ -136,7 +138,7 @@ const projects = {
         {
             "title": "Easter Egg",
             "dates": "04/2018 - 05/2018",
-            "description": "Classic Arcade Game",
+            "description": "Classic Arcade Game.",
             "technologies": "HTML5, CSS3, JavaScript",
             "url": "https://hajczek.github.io/arcade-game/",
             "images": []
@@ -144,7 +146,7 @@ const projects = {
         {
             "title": "Match photos",
             "dates": "03/2018",
-            "description": "Memory Game",
+            "description": "Memory Game.",
             "technologies": "HTML5, CSS3, JavaScript",
             "url": "https://hajczek.github.io/memory-game/",
             "images": []
@@ -165,10 +167,10 @@ const projects = {
 
 bio.display = function () {
     let formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-    $('#header').prepend(formattedRole);
+    $('header').prepend(formattedRole);
 
     let formattedName = HTMLheaderName.replace("%data%", bio.name);
-    $('#header').prepend(formattedName);
+    $('header').prepend(formattedName);
 
 
     let formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
@@ -189,15 +191,15 @@ bio.display = function () {
 
 
     let formattedPic = HTMLbioPic.replace("%data%", bio.biopic);
-    $("#header").append(formattedPic);
+    $("header").append(formattedPic);
 
     let formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
-    $('#header').append(formattedWelcomeMsg);
+    $('header').append(formattedWelcomeMsg);
 
 
     let skills = bio.skills;
     if (skills.length > 0) {
-        $("#header").append(HTMLskillsStart);
+        $("header").append(HTMLskillsStart);
 
         for (i in skills) {
             $("#skills").append(HTMLskills.replace("%data%", skills[i]));
@@ -260,7 +262,6 @@ projects.display = function () {
         }
     }
 }
-
 projects.display();
 
 
@@ -286,37 +287,32 @@ education.display = function () {
             $(".education-entry:last").append(formattedSchoolMajor);
         }
     }
+}
+education.display();
 
-    let courses = education.onlineCourses;
+courses.display = function () {
+
+    let courses = selfEducation.onlineCourses;
     if (courses.length > 0) {
-        $(".education-entry:last").append(HTMLonlineCourses);
 
         for (i in courses) {
-            let formattedOnlineTitle = HTMLonlineTitle.replace("%data%", courses[i].title).replace("#", courses[i].url);
+            $("#courses").append(HTMLonlineCoursesStart);
+
+            let formattedOnlineTitle = HTMLonlineTitle.replace("%data%", courses[i].title);
             let formattedOnlineSchool = HTMLonlineSchool.replace("%data%", courses[i].school);
             let formattedOnlineDates = HTMLonlineDates.replace("%data%", courses[i].dates);
             let formattedOnlineURL = HTMLonlineURL.replace("%data%", courses[i].url);
 
-            $(".education-entry:last").append(formattedOnlineTitle + formattedOnlineSchool);
-            $(".education-entry:last").append(formattedOnlineDates);
-            $(".education-entry:last").append(formattedOnlineURL);
+            $(".courses-entry:last").append(formattedOnlineTitle + formattedOnlineSchool);
+            $(".courses-entry:last").append(formattedOnlineDates);
+            $(".courses-entry:last").append(formattedOnlineURL);
 
         }
     }
-
 }
-
-education.display();
+courses.display();
 
 
 /* Displays googleMap */
 
 $("#mapDiv").append(googleMap);
-
-
-
-
-
-
-
-

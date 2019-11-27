@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBqtLvddq3jzZ_Lnu9M8266EMVBfXtlUT4"
     type="text/javascript"></script>
@@ -12,29 +13,33 @@
 </head>
 
 <body>
-  <div id="main">
-    <div id="header" class="center-content clear-fix">
+  <main>
+    <header class="center-content clear-fix">
       <ul id="topContacts" class="flex-box"></ul>
-    </div>
-    <div style="clear: both;"></div>
+    </header>
     <div id="workExperience" class="gray">
       <h2>Work Experience</h2>
     </div>
-    <div id="projects">
+    <div id="projects" class="light">
       <h2>Projects</h2>
     </div>
     <div id="education" class="gray">
       <h2>Education</h2>
     </div>
-    <div id="mapDiv">
+    <div id="courses" class="light">
+      <h2>Courses online</h2>
+    </div>
+    <div id="mapDiv" class="gray">
       <h2>Where I've Lived and Worked</h2>
     </div>
     <div id="lets-connect" class="dark-gray">
-      <h2 class="orange center-text">Let's Connect</h2>
-      <ul id="footerContacts" class="flex-box">
-      </ul>
+      <h2 class="blue center-text">Let's Connect</h2>
+      <footer>
+        <ul id="footerContacts" class="flex-box">
+        </ul>
+      </footer>
     </div>
-  </div>
+  </main>
   <script src="js/jQuery.js"></script>
   <script src="js/helper.js"></script>
   <script src="js/resumeBuilder.js"></script>
@@ -53,6 +58,9 @@
     }
     if (document.getElementsByClassName('education-entry').length === 0) {
       document.getElementById('education').style.display = 'none';
+    }
+    if (document.getElementsByClassName('courses-entry').length === 0) {
+      document.getElementById('courses').style.display = 'none';
     }
     if (document.getElementsByClassName('flex-item').length === 0) {
       document.getElementById('lets-connect').style.display = 'none';
