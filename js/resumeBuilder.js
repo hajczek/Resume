@@ -11,7 +11,7 @@ const bio = {
         "github": "<a href='https://github.com/hajczek' target='_blank'>github.com/hajczek</a>",
         "location": "Poland, Milanówek, Piasta 11"
     },
-    "welcomeMessage": "Self-employed in the company 'Serwis stron'. Design and code websites.<br>Current career goal, work as a Front-End Developer in a professional Front-End team.",
+    "welcomeMessage": "Self-employed in the company 'Serwis stron'. Design and code websites.<br>Career goal: remote work as a Front-End Web Developer in a professional frontend team, with the possibility of further development.",
     "skills": ["HTML", "CSS", "SASS", "JavaScript", "jQuery", "TypeScript", "React", "Git", "NPM", "Photoshop"],
     "biopic": "images/IK.png"
 };
@@ -104,7 +104,7 @@ const projects = {
         {
             "title": "Naighborhood",
             "dates": "05/2018 - 06/2018",
-            "description": "Warsaw cultural map with marked theatres, cinemas, galeries and museums.",
+            "description": "Warsaw cultural map with marked theatres, cinemas, art galleries, and museums.",
             "technologies": "HTML5, CSS3, JavaScript + React, Google Maps API, Wikipedia API",
             "url": "https://hajczek.github.io/Neighborhood---Warsaw-Cultural-Map/",
             "images": []
@@ -112,7 +112,7 @@ const projects = {
         {
             "title": "Random Quote Machine",
             "dates": "10/2019 - 11/2019",
-            "description": "The app displays random quotes of famous people.",
+            "description": "The app displays random quotes from famous people.",
             "technologies": "HTML5, CSS3, JavaScript + React, Random Famous Quotes API",
             "url": "https://hajczek.github.io/random-quote-machine/",
             "images": []
