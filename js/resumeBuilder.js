@@ -58,7 +58,7 @@ const education = {
         },
         {
             "title": "EITCA Computer Graphics Programme",
-            "school": "EITCI - Certificate Id: EITCA/EG/JQF16004487",
+            "school": "EITCI<br>Certificate Id: EITCA/EG/JQF16004487",
             "dates": "08/2016",
             "url": "https://www.eitci.org/validate"
         },
