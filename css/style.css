@@ -83,10 +83,10 @@ h5 {
 
 
 .date-text {
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #444;
-  line-height: 1;
   float: left;
+  margin-top: 5px;
 }
 
 .location-text {

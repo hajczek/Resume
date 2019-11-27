@@ -70,28 +70,28 @@ const work = {
         {
             "employer": "Serwis stron",
             "title": "self-employed",
-            "location": "Piasta 11, 05-822 Milanówek, Poland",
+            "location": "Poland, Masovian District, 05-822 Milanówek, Piasta 11 street",
             "dates": "01/2009 - now",
             "description": "Remote implementation of website - designing and coding. Implementation of open-sorce CMS systems. Updating and modernizing websites."
         },
         {
             "employer": "Splio",
             "title": "Campaign Executive",
-            "location": "Warsaw, Masovian District, Poland",
+            "location": "Poland, Masovian District, 02-605 Warsaw, Ursynowska 72 street",
             "dates": "02/2019 - 05/2019",
             "description": "Coding HTML and CSS email templates."
         },
         {
             "employer": "nonstop studio",
             "title": "Website designer",
-            "location": "Nocznickiego 33, 01-918 Warsaw, Poland",
+            "location": "Poland, Masovian District, 01-918 Warsaw, Nocznickiego 33 street",
             "dates": "11/2007 - 08/2008",
             "description": "Cut and encoded PSD graphic templates into HTML and CSS. Actualized websites content for clients of the company."
         },
         {
             "employer": "ATCOM SA",
             "title": "Product consultant",
-            "location": "Grochowska 316/320, 03-839 Warsaw, Poland",
+            "location": "Poland, Masovian District, 03-839 Warsaw, Grochowska 316/320 street",
             "dates": "07/2004 - 05/2007",
             "description": "Advice on the company's products and services."
         }
