@@ -100,12 +100,29 @@ const work = {
 
 const projects = {
     "projects": [
+
         {
-            "title": "Portfolio",
-            "dates": "03/2018",
-            "description": "My portfolio online.",
-            "technologies": "HTML5, CSS3, Grid",
-            "url": "https://hajczek.github.io/portfolio/",
+            "title": "Naighborhood",
+            "dates": "05/2018 - 06/2018",
+            "description": "Warsaw cultural map with marked theatres, cinemas, galeries and museums.",
+            "technologies": "HTML5, CSS3, JavaScript + React, Google Maps API, Wikipedia API",
+            "url": "https://hajczek.github.io/Neighborhood---Warsaw-Cultural-Map/",
+            "images": []
+        },
+        {
+            "title": "Random Quote Machine",
+            "dates": "10/2019 - 11/2019",
+            "description": "The app displays random quotes of famous people.",
+            "technologies": "HTML5, CSS3, JavaScript + React, Random Famous Quotes API",
+            "url": "https://hajczek.github.io/random-quote-machine/",
+            "images": []
+        },
+        {
+            "title": "Markdown Previewer",
+            "dates": "10/2019",
+            "description": "Editable text field with possibility for uses Markdown tags to formate text.",
+            "technologies": "HTML5, CSS3, JavaScript + React",
+            "url": "https://hajczek.github.io/markdown-previewer/",
             "images": []
         },
         {
@@ -114,14 +131,6 @@ const projects = {
             "description": "Open-Source project. Conception and coordination. Realisation with a group of Google Developer Challenge Scholarship students.",
             "technologies": "HTML5, CSS3, JavaScript, Bootstrap, PHP, SQLLite3",
             "url": "http://e-cookbook.online/",
-            "images": []
-        },
-        {
-            "title": "Warsaw cultural map",
-            "dates": "05/2018 - 06/2018",
-            "description": "Warsaw cultural map with theatres, cinemas, galeries and museums.",
-            "technologies": "HTML5, CSS3, JavaScript + React, Google Maps API, Wikipedia API",
-            "url": "https://hajczek.github.io/Neighborhood---Warsaw-Cultural-Map/",
             "images": []
         },
         {
@@ -146,14 +155,6 @@ const projects = {
             "description": "Application for artists allows drawing with pixels.",
             "technologies": "HTML5, CSS3, JavaScript, jQuery",
             "url": "https://hajczek.github.io/pixel-art-maker-project/",
-            "images": []
-        },
-        {
-            "title": "Company website",
-            "dates": "01/2017",
-            "description": "Website made for 'Serwis stron' - my one-person company.",
-            "technologies": "HTML5, CSS3, jQuery",
-            "url": "http://www.serwisstron.pl",
             "images": []
         }
     ]
