@@ -2,7 +2,7 @@
 
 This resume was made as a project during the Google FEND scholarship.
 
-## WHAT USED FOR THIS APPLICATION
+## USED FOR THIS APPLICATION
 
 1. HTML
 2. CSS
