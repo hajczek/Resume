@@ -40,16 +40,27 @@ header {
   color: #f34299;
 }
 .flex-box {
-  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 10px 0 30px;
 }
 .flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   font-size: 20px;
 }
 #footerContacts {
@@ -127,6 +138,7 @@ span.title {
   display: block;
   float: left;
   width: 100%;
+  margin-top: 15px;
 }
 .welcome-message {
   font-style: italic;
@@ -163,9 +175,12 @@ ul {
   float: left;
   padding: 5px 20px 10px 10px;
   width: 150px;
-  filter: contrast(80%);
+  -webkit-filter: contrast(80%);
+          filter: contrast(80%);
 }
 .skills-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 85px;
 }
