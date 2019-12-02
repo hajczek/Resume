@@ -112,6 +112,14 @@ const projects = {
             "images": []
         },
         {
+            "title": "Drum Machine",
+            "dates": "11/2019",
+            "description": "Drum machine which plays sounds after a click on pad or press key on a keyboard.",
+            "technologies": "HTML5, CSS3, JavaScript + React",
+            "url": "https://hajczek.github.io/drum-machine/",
+            "images": []
+        },
+        {
             "title": "Random Quote Machine",
             "dates": "10/2019 - 11/2019",
             "description": "The app displays random quotes from famous people.",
